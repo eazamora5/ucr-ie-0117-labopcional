@@ -11,13 +11,17 @@
 
 int main() {
     Person persons[] = {
-        {"Adriana", 30, 165.5},
         {"Braulio", 25, 175.2},
-        {"Carlos", 35, 180.3},
-        {"David", 28, 160.4},
-        {"Enrique", 22, 170.0}
+        {"Adriana", 30, 165.5},
+	{"Carlos", 35, 180.3},
+        {"Enrique", 22, 170.0},
+	{"David", 28, 160.4}
     };
     int size = sizeof(persons) / sizeof(persons[0]);
+    
+    printf("Arreglo sin Ordenamiento:\n");
+    print_persons(persons, size);
+
 
     printf("Ordenamiento alfabetico:\n");
     qsort(persons, size, sizeof(Person), compare_by_name);
