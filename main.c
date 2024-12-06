@@ -19,9 +19,9 @@ int main() {
     };
     int size = sizeof(persons) / sizeof(persons[0]);
     
+    printf("Laboratorio Opcional - Enrique Zamora Solis\n");
     printf("Arreglo sin Ordenamiento:\n");
     print_persons(persons, size);
-
 
     printf("Ordenamiento alfabetico:\n");
     qsort(persons, size, sizeof(Person), compare_by_name);
