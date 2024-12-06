@@ -1,3 +1,9 @@
+#Universidad de Costa Rica
+#IE-0117 Programacion bajo plataformas abiertas
+#Profesora: Carolina Trejos
+#Estudiante: Enrique Zamora Solis
+#Laboratorio Opcional
+
 # Variables
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99 -g
