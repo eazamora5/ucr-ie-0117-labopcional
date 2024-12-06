@@ -11,5 +11,5 @@ void print_persons(const Person persons[], int size) {
     for (int i = 0; i < size; i++) {
         printf("Nombre: %s, Edad: %d, Altura: %.2f cm\n", persons[i].name, persons[i].age, persons[i].height);
     }
-    printf("\n");
+    printf("\n\n");
 }
