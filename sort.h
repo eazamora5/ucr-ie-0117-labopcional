@@ -2,7 +2,7 @@
 //IE-0117 Programacion bajo plataformas abiertas
 //Profesora: Carolina Trejos
 //Estudiante: Enrique Zamora Solis
-//Laboratorio Opcional
+//Laboratorio Opcional - 04 Dic 2024
 
 #ifndef SORT_H
 #define SORT_H
